@@ -20,7 +20,7 @@ adb shell screencap -p /storage/emulated/0/Pictures/Screenshot_todolist.png && a
 
 adb logcat | grep -rnw "com.android.todolist"
 
-6. Скопировать логи приложения todolist на компьютер. сохранили на компьютер:
+6. Скопировать логи приложения todolist на компьютер. Сохранить на компьютер:
 
 adb logcat | grep -rnw "todolist" > /Users/mary/group_22/togolist.log (выйти из adb logcat Control+C)
 
